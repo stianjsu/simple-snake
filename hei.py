@@ -1,3 +1,0 @@
-ok = "hei"
-
-print("ok")
