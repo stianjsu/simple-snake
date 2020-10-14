@@ -1,0 +1,3 @@
+ok = "hei"
+
+print("ok")
