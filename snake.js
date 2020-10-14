@@ -77,7 +77,7 @@ class snakeHead{
             snakeblocks.push(new snakebody(savelast[0],savelast[1],idlist))
             idlist++
             score ++
-            scorehead.innerHTML = score
+            scorehead.innerHTML = "Score: " + score
         }
     }
 }
@@ -153,7 +153,6 @@ function gameloop(){
     snakeblocks[0].draw()
     if(snakeblocks[0].isCrashed()){
         run = false
-        console.log("rip")
     }
     snakeblocks[0].eatenApple()
 
