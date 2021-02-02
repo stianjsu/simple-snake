@@ -1,7 +1,27 @@
+body{
+    background-color: lightblue;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+}
 #screen{
     border: 1px black solid;
-    margin-left: width;
 }
-.box1{
+.gamebox{
+    background-color: antiquewhite;
+    width: 600px;
     margin: auto;
+    padding-bottom: 50px;
+}
+.score{
+    padding-left: 20px;
+    
+}
+.screen{
+    text-align: center;
+}
+.explenation{
+    padding-left: 20px;
+    
 }

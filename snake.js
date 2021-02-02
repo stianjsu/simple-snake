@@ -56,7 +56,7 @@ class snakeHead{
     draw(){
         ctx.beginPath()
         ctx.lineWidth = 2
-        ctx.strokeStyle = "blue"
+        ctx.strokeStyle = "green"
         ctx.rect(this.x*difw, this.y*difh, difw, difh)
         ctx.stroke()
     }
